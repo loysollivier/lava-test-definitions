@@ -1,0 +1,13 @@
+metadata:
+  format: Lava-Test Test Definition 1.0
+  name: simple ping
+  description: "Simple ping test of the network gateway"
+  version: 1.0
+  os:
+    - debian
+  scope:
+    - functional
+
+run:
+  steps:
+  - ./smoketests/log/log-tests.sh -c 15
